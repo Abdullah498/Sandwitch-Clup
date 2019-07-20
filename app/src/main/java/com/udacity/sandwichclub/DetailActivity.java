@@ -71,7 +71,6 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI() {
-        //updating UI component
         origin.setText(sandwich.getPlaceOfOrigin());
         alsoKnownAs.setText(TextUtils.join(",", sandwich.getAlsoKnownAs()));
         ingredients.setText(TextUtils.join(",", sandwich.getIngredients()));
